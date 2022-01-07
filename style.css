@@ -1,0 +1,153 @@
+body.big-page, #example {
+	overflow: hidden;
+	background: url('images/bg.jpg');
+  background-size: cover;
+}
+
+.entry img {
+	border: none;
+}
+
+
+#mainContent, #example {
+	position: relative;
+	display: block;
+	width: 800px;
+	border: none;
+	margin: 0 auto;
+	height: 800px;
+	overflow: visible;
+}
+
+
+#sun {
+	position: absolute;
+	left: 330px;
+	top: 300px;
+  width: 125px;
+  height: 125px;
+}
+
+#mercury {
+	position: absolute;
+	
+	top: 340px;
+	left: 365px;
+
+  animation: mOrbit 0.88s linear infinite; /* Chrome, Firefox 16+, IE 10+, Safari 5 */
+}
+
+#venus {
+	position: absolute;
+	
+	top: 340px;
+	left: 365px;
+
+  animation: vOrbit 2.25s linear infinite; /* Chrome, Firefox 16+, IE 10+, Safari 5 */
+}
+
+#earth {
+	position: absolute;
+	
+	top: 340px;
+	left: 365px;
+
+  animation: eOrbit 3.65s linear infinite; /* Chrome, Firefox 16+, IE 10+, Safari 5 */
+}
+
+#mars {
+	position: absolute;
+	
+	top: 340px;
+	left: 365px;
+
+  animation: maOrbit 6.87s linear infinite; /* Chrome, Firefox 16+, IE 10+, Safari 5 */
+}
+
+#jupiter {
+	position: absolute;
+	
+	top: 340px;
+	left: 365px;
+
+  animation: jOrbit 43.44s linear infinite; /* Chrome, Firefox 16+, IE 10+, Safari 5 */
+}
+
+#saturn {
+	position: absolute;
+	
+	top: 340px;
+	left: 365px;
+
+  animation: sOrbit 107.31s linear infinite; /* Chrome, Firefox 16+, IE 10+, Safari 5 */
+}
+
+#uranus {
+	position: absolute;
+	
+	top: 340px;
+	left: 365px;
+
+  animation: uOrbit 306.6s linear infinite; /* Chrome, Firefox 16+, IE 10+, Safari 5 */
+}
+
+#neptune {
+	position: absolute;
+	
+	top: 340px;
+	left: 365px;
+
+  animation: nOrbit 602.25s linear infinite; /* Chrome, Firefox 16+, IE 10+, Safari 5 */
+}
+
+
+
+@-webkit-keyframes mOrbit {
+	from { 	transform: rotate(0deg) translateX(80px) rotate(0deg); }
+	to   {  transform: rotate(360deg) translateX(80px) rotate(-360deg); }
+}
+
+
+@-webkit-keyframes vOrbit {
+	from { 	transform: rotate(0deg) translateX(150px) rotate(0deg); }
+	to   {  transform: rotate(360deg) translateX(150px) rotate(-360deg); }
+}
+
+
+@-webkit-keyframes eOrbit {
+	from { 	transform: rotate(0deg) translateX(210px) rotate(0deg); }
+	to   {  transform: rotate(360deg) translateX(210px) rotate(-360deg); }
+}
+
+
+@-webkit-keyframes maOrbit {
+	from { 	transform: rotate(0deg) translateX(275px) rotate(0deg); }
+	to   {  transform: rotate(360deg) translateX(275px) rotate(-360deg); }
+}
+
+
+@-webkit-keyframes jOrbit {
+	from { 	transform: rotate(0deg) translateX(335px) rotate(0deg); }
+	to   {  transform: rotate(360deg) translateX(335px) rotate(-360deg); }
+}
+
+
+@-webkit-keyframes sOrbit {
+	from { 	transform: rotate(0deg) translateX(410px) rotate(0deg); }
+	to   {  transform: rotate(360deg) translateX(410px) rotate(-360deg); }
+}
+
+
+@-webkit-keyframes uOrbit {
+	from { 	transform: rotate(0deg) translateX(495px) rotate(0deg); }
+	to   {  transform: rotate(360deg) translateX(495px) rotate(-360deg); }
+}
+
+@-webkit-keyframes nOrbit {
+	from { 	transform: rotate(0deg) translateX(575px) rotate(0deg); }
+	to   {  transform: rotate(360deg) translateX(575px) rotate(-360deg); }
+}
+
+.a {
+  position: fixed;
+}
